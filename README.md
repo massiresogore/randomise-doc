@@ -1,5 +1,8 @@
 # 🎲 **Bien randomiser en JavaScript : une erreur que j’ai corrigée !**  
 
+## Test en ligne !
+[https://www.randomise-emcer](https://massiresogore.github.io/randomise-emcer/)
+
 En travaillant sur un projet, je voulais simuler un **lancer de dé** 🎲 en JavaScript. Au départ, j’utilisais cette fonction :  
 
 ```javascript
