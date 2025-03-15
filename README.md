@@ -21,5 +21,3 @@ const randomDice = () => {
 Cette fois, la distribution des valeurs est **équitable**, et chaque nombre entre 1 et 6 a la même probabilité d’apparaître.  
 
 📌 **Leçon** : Ne jamais imbriquer plusieurs `Math.random()` sans raison ! Cela peut créer des distributions inattendues.  
-
-

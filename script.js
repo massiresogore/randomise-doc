@@ -1,3 +1,8 @@
+/**
+ * @author Massire <massire.org@gmail.com>
+ * @date 2025-03-15
+ * @file script.js
+ */
 /** 
 Variables:
 - animateBtn: Référence l'élément HTML avec l'ID 'animateBtn-1'.
@@ -6,6 +11,7 @@ Variables:
 - animateBtn2: Référence l'élément HTML avec l'ID 'animateBtn-2'.
 - result2: Référence l'élément HTML avec l'ID 'result-2'.
 */
+
 const animateBtn = document.getElementById("animateBtn-1");
 const result = document.getElementById("result-1");
 const message = document.querySelector(".message");
@@ -13,9 +19,9 @@ const animateBtn2 = document.getElementById("animateBtn-2");
 const result2 = document.getElementById("result-2");
 
 /**
-Description:
-Cette fonction affiche le message en haut de la page.
-*/
+ * Description:
+ * Cette fonction affiche le message en haut de la page.
+ */
 const showMessage = () => {
   message.classList.add("show");
   setTimeout(() => {

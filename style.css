@@ -21,6 +21,7 @@
 .animateBtn:active {
     transform: translateY(5px);
 }
+
 #main {
     display: flex;
     flex-direction: column;
